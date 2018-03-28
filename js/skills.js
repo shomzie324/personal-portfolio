@@ -13,3 +13,37 @@ function removeColor(){
     njs.style.fontSize = "100px";    
     document.getElementById("icon-name").innerHTML = ""          
 }
+
+function addBSColor(){
+    // Change Bootstrap logo colour
+    var boots = document.getElementById("boots");
+    document.getElementById("bs-icon-name").innerHTML = "Bootstrap"
+    boots.className = "devicon-bootstrap-plain colored";
+    boots.style.fontSize = "150px"; 
+    boots.style.opacity = 1;
+}
+
+function removeBSColor(){
+     // Change logo colour
+     var boots = document.getElementById("boots");
+     boots.className = "devicon-bootstrap-plain";
+     boots.style.fontSize = "100px";    
+     document.getElementById("bs-icon-name").innerHTML = ""
+}
+
+function addhtColor(){
+    // Change Bootstrap logo colour
+    var ht5 = document.getElementById("ht5");
+    document.getElementById("ht-icon-name").innerHTML = "HTML 5"
+    ht5.className = "devicon-html5-plain colored";
+    ht5.style.fontSize = "150px"; 
+    ht5.style.opacity = 1;
+}
+
+function removehtColor(){
+     // Change logo colour
+     var ht5 = document.getElementById("ht5");
+     ht5.className = "devicon-html5-plain";
+     ht5.style.fontSize = "100px";    
+     document.getElementById("ht-icon-name").innerHTML = ""
+}

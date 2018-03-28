@@ -110,7 +110,7 @@ nav {
 
 nav ul {
     list-style: none;
-    background: #222;
+    background-color:transparent;
     padding: 0;
     text-align: center;
     margin: 0;
@@ -199,7 +199,7 @@ nav ul li a {
 }
 
 .bottom h1 {
-    color: #fdab00;
+    color: #C04033;
 }
 
 .top {
@@ -218,7 +218,7 @@ nav ul li a {
     position: absolute;
     height: 100%;
     display: block;
-    background-color: #fdab00;
+    background-color: #C04033;
     width: 5px;
     top: 0;
     left: 50%;

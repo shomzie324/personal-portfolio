@@ -37,7 +37,7 @@
                         <li class="list-items"><a href="#about-page">About</a></li>
                         <li class="list-items"><a href="#wrapper">Education</a></li>
                         <li class="list-items"><a href="#">Projects</a></li>
-                        <li class="list-items"><a href="#">Skills</a></li>
+                        <li class="list-items"><a href="#skills-section">Skills</a></li>
                         <li class="list-items"><a href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -110,7 +110,7 @@
         </section>
 
         <!-- skills section -->
-        <header class="skill-v-header skill-container">
+        <header class="skill-v-header skill-container" id="skills-section">
             <div class="skill-fullscreen-video-wrap">
                 <video src="img/Typing_Video.mov" autoplay ="true"
                 loop="true"></video>
@@ -124,11 +124,13 @@
                             <i class="devicon-nodejs-plain" id="njs"></i>
                             <h5 id="icon-name"></h5>
                     </div>
-                    <div class="header-icons">
-                            <i class="devicon-bootstrap-plain"></i>
+                    <div class="header-icons" onmouseover="addBSColor(this)" onmouseout="removeBSColor(this)">
+                            <i class="devicon-bootstrap-plain" id="boots"></i>
+                            <h5 id="bs-icon-name"></h5>
                     </div>
-                    <div class="header-icons">
-                            <i class="devicon-html5-plain"></i>
+                    <div class="header-icons" onmouseover="addhtColor(this)" onmouseout="removehtColor(this)">
+                            <i class="devicon-html5-plain" id="ht5"></i>
+                            <h5 id="ht-icon-name"></h5>
                     </div>
                     <div class="header-icons">
                             <i class="devicon-css3-plain"></i>
