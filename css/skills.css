@@ -112,6 +112,10 @@ body {
     .skill-header-content{
         padding-right: 3rem;
         padding-left: 3rem;
+        margin-bottom: 20px;
+        position: absolute;
+        left: -20px;
+        top: -35px;
     }
 
     .skill-header-overlay{
@@ -121,7 +125,8 @@ body {
     }
 
     .skill-wrapper{
-        grid-template-columns: 1fr 1fr 1fr;   
+        grid-template-columns: 1fr 1fr 1fr; 
+        margin-top: 20%;  
     }
 
 }

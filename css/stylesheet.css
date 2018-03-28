@@ -61,7 +61,7 @@ header{
 
 #key-cursor{
     z-index: 1;
-    margin-top: 85px;
+    margin-top: 95px;
     height: 60px;
     width:20px;
     background: #1ec503;
@@ -88,7 +88,7 @@ header{
     position: fixed;
     float: left;
     margin: 16px 36px;
-    color: #000;
+    color: #222;
     font-weight: bold;
     font-size: 24px;
 }
@@ -110,7 +110,7 @@ nav {
 
 nav ul {
     list-style: none;
-    background: rgba(0,0,0,0);
+    background: #222;
     padding: 0;
     text-align: center;
     margin: 0;
@@ -118,7 +118,7 @@ nav ul {
 }
 
 nav.black ul {
-    background: #000;
+    background: #222;
 }
 
 nav.black ul li a {
@@ -132,13 +132,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000;
+    color: #222;
     font-size: 20px;
 }
 
 .menu-icon {
     width: 100%;
-    background: #000;
+    background: #222;
     text-align: right;
     box-sizing: border-box;
     padding: 15px 24px;
