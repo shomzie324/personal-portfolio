@@ -17,7 +17,7 @@ header{
 .navbar {
     width:100%;
     height: 100vh;
-    background: url(../img/shomari.jpg) no-repeat 50% 50%;
+    background: url(../img/laptop.jpeg) no-repeat 50% 50%;
     background-size: cover;
     z-index: 2;
 }
