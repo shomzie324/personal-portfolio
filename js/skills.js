@@ -1,3 +1,10 @@
+// To get it in one function, give every icon the same mouse over
+// function, and pass the event var into the function
+// in the function call event.target to get the icone that triggered
+// the function. Then use e.target.className to get that events class name
+// then but all possible classNames in a switch case to change the right class
+
+
 function addColor(){
     // Change logo colour
     var njs = document.getElementById("njs");

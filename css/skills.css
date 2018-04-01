@@ -59,8 +59,8 @@ body {
 
 #skill-key-cursor{
     position: absolute;
-    left: 230px;
-    top: 75px;
+    left: 165px;
+    top: 25px;
     z-index: 1;
     height: 60px;
     width:20px;
