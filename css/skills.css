@@ -103,11 +103,6 @@ body {
     padding: 20px 0;
 }
 
-.section-d{
-    background: #333;
-    color:#fff;
-}
-
 @media(max-width:768px){
 
     .skill-header-content{

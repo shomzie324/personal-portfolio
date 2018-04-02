@@ -18,10 +18,10 @@ body {
   background-color: #222;
 }
 
-a {
+/* a {
   color: #a8ae7e;
   text-decoration: none;
-}
+} */
 
 /* -------------------------------- 
 
@@ -585,6 +585,15 @@ li.selected .cd-project-title,
   position: absolute;
   left: 45%;
   margin-top: 15px;
+  background: black;
+}
+
+.cd-project-info a:hover{
+  position: absolute;
+  left: 45%;
+  margin-top: 15px;
+  background: white;
+  color: black;
 }
 
 .cd-projects-container .scroll {

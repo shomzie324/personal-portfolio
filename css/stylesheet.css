@@ -107,19 +107,22 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 4;
+    background-color: transparent !important;
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; 
     background-color:transparent;
     padding: 0;
     text-align: center;
-    margin: 0;
+    position: absolute;
+    left: 30%;
+    top: 30%;
     transition: 0.5s;
 }
 
 nav.black ul {
-    background: #222;
+    background: black;
 }
 
 nav.black ul li a {
@@ -129,6 +132,11 @@ nav.black ul li a {
 nav ul li {
     display: inline-block;
     padding: 20px;
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: #222;
 }
 
 nav ul li a {
