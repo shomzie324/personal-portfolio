@@ -15,7 +15,7 @@ body {
   font-size: 1.6rem;
   font-family: "PT Sans", sans-serif;
   color: #ffffff;
-  background-color: #262423;
+  background-color: #222;
 }
 
 a {
@@ -44,7 +44,7 @@ Menu trigger
 .cd-nav-trigger {
   position: absolute;
   z-index: 4;
-  top: 24px;
+  top: 70px;
   right: 5%;
   height: 52px;
   width: 52px;
@@ -581,6 +581,12 @@ li.selected .cd-project-title,
   line-height: 2;
 }
 
+.cd-project-info a{
+  position: absolute;
+  left: 45%;
+  margin-top: 15px;
+}
+
 .cd-projects-container .scroll {
   display: block;
   position: absolute;
@@ -719,12 +725,12 @@ li.selected .cd-project-title,
   -moz-osx-font-smoothing: grayscale;
 }
 .no-touch .cd-primary-nav a:hover {
-  background-color: #a8ae7e;
+  background-color: #A0ADBE;
 }
 .cd-primary-nav .cd-label {
   position: relative;
   margin: 2.4em 0 2em;
-  color: #a8ae7e;
+  color: #A0ADBE;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;

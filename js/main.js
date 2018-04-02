@@ -5,6 +5,7 @@ jQuery(document).ready(function($){
 		projectPreviews = projectsPreviewWrapper.children('li'),
 		projects = projectsContainer.find('.cd-projects'),
 		navigationTrigger = $('.cd-nav-trigger'),
+		otherNavigationTrigger = $('.cd-onav-trigger')
 		navigation = $('.cd-primary-nav'),
 		//if browser doesn't support CSS transitions...
 		transitionsNotSupported = ( $('.no-csstransitions').length > 0);
@@ -25,6 +26,33 @@ jQuery(document).ready(function($){
 	});
 
 	navigationTrigger.on('click', function(event){
+		event.preventDefault();
+		
+		if( animating == false ) {
+			animating = true;
+			if( navigationTrigger.hasClass('project-open') ) {
+				//close visible project
+				navigationTrigger.add(projectsContainer).removeClass('project-open');
+				closeProject();
+			} else if( navigationTrigger.hasClass('nav-visible') ) {
+				//close main navigation
+				navigationTrigger.removeClass('nav-visible');
+				navigation.removeClass('nav-clickable nav-visible');
+				if(transitionsNotSupported) projectPreviews.removeClass('slide-out');
+				else slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, false);
+			} else {
+				//open main navigation
+				navigationTrigger.addClass('nav-visible');
+				navigation.addClass('nav-visible');
+				if(transitionsNotSupported) projectPreviews.addClass('slide-out');
+				else slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, true);
+			}
+		}	
+
+		if(transitionsNotSupported) animating = false;
+	});
+
+	otherNavigationTrigger.on('click', function(event){
 		event.preventDefault();
 		
 		if( animating == false ) {
