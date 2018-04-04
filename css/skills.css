@@ -99,6 +99,10 @@ body {
     font-size: 100px;
 }
 
+.skill-wrapper h5{
+    display: none;
+}
+
 .section{
     padding: 20px 0;
 }
